@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1 id="title">Survey Form</h1>
+		<p id="description">
+			Thank you for taking the time to fill out this survey
+		</p>
+		<form action="" id="survey-form">
+			<label for="name" id="name-label">Name</label>
+			<input type="text" id="name" placeholder="Your Name Here" required />
+			<label for="email" id="email-label">Email</label>
+			<input type="email" id="email" placeholder="Your Email Here" required />
+			<label for="number" id="number-label">Age</label>
+			<input
+				type="number"
+				id="number"
+				min="1"
+				max="99"
+				placeholder="Your Age Here"
+			/>
+			<div class="employment">What is your current employment status?</div>
+			<select name="employment-status" id="dropdown">
+				<option disabled selected value>
+					Select Current Employment Status
+				</option>
+				<option value="0">Unemployed</option>
+				<option value="1">Student</option>
+				<option value="3">Part-time</option>
+				<option value="4">Full-time</option>
+			</select>
+			<div class="rating">Do you like or dislike this website?</div>
+			<label for="rating"
+				><input
+					type="radio"
+					name="rating"
+					id="rating"
+					value="like"
+				/>Like</label
+			>
+			<label for="rating"
+				><input
+					type="radio"
+					name="rating"
+					id="rating"
+					value="dislike"
+				/>Dislike</label
+			>
+
+			<div class="checkbox-label">
+				What would you prefer to have this website change?
+			</div>
+
+			<label for="checkbox"
+				><input type="checkbox" name="checkbox" value="color" />Different Color
+				Scheme</label
+			>
+
+			<label for="checkbox"
+				><input type="checkbox" name="checkbox" value="detail" />More detail on
+				questions</label
+			>
+
+			<label for="checkbox"
+				><input type="checkbox" name="checkbox" value="longer" />Longer
+				explanations on material</label
+			>
+
+			<div class="text-area">Any other comments or questions?</div>
+			<textarea name="other" id="other" cols="30" rows="10"></textarea>
+			<button id="submit" type="submit">Submit</button>
+		</form>
+	</body>
+</html>

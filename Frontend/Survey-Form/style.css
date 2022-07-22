@@ -1,0 +1,72 @@
+* {
+	padding: 0.3rem;
+}
+
+#title,
+#description {
+	text-align: center;
+	margin: 5px auto 10px auto;
+}
+
+#survey-form {
+	background-color: #00005e85;
+	width: 45vw;
+	margin: auto;
+	height: auto;
+	padding: 1vw;
+	align-items: left;
+	text-align: left;
+	border-radius: 0.25rem;
+	display: flex;
+	flex-direction: column;
+}
+
+#name-label,
+#email-label,
+#number-label,
+.rating,
+.checkbox-label,
+.text-area {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	margin: 0;
+	align-items: flex-start;
+}
+
+#name,
+#email,
+#number {
+	padding: 5px;
+	width: 99%;
+	margin: auto auto 5px auto;
+}
+
+.employment {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#dropdown {
+	font-size: 15px;
+	font-weight: 650;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+	align-items: center;
+}
+
+#other {
+	margin: auto 0.5rem 0.25rem 0.5rem;
+}
+
+#submit {
+	margin: auto 0.5rem 0.25rem 0.5rem;
+	background-color: rgb(1, 167, 1);
+	border: none;
+	height: 2rem;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}

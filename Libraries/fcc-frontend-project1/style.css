@@ -1,0 +1,63 @@
+.blue {
+	background-color: #0000ff;
+}
+.green {
+	background-color: #32cd32;
+}
+.pink {
+	background-color: #32cd32;
+}
+.blue-violet {
+	background-color: #8a2be2;
+}
+.yellow-green {
+	background-color: #9acd32;
+}
+
+.quote-box {
+	background-color: darkslategray;
+	width: 35vw;
+	height: auto;
+	margin: auto;
+	padding: auto;
+	border-radius: 1.25rem;
+	border: 2px solid black;
+	box-shadow: 0 0 2rem rgb(255, 255, 255);
+}
+
+.quote {
+	text-align: center;
+	margin: 1rem;
+	padding: 1rem;
+	font-size: 2.25rem;
+	font-weight: bold;
+}
+.author {
+	text-align: center;
+	margin: 1rem;
+	padding: 1rem;
+	font-size: 2.25rem;
+	font-weight: bold;
+}
+.button {
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 1rem;
+}
+button {
+	font-size: 1.25rem;
+	font-weight: bold;
+	padding: 0.5rem;
+	border-radius: 1rem;
+}
+.twitter {
+	height: 2vw;
+	width: 2vw;
+	padding: auto;
+	margin: auto;
+	margin-right: 1rem;
+	align-content: center;
+	text-align: center;
+	vertical-align: middle;
+}
